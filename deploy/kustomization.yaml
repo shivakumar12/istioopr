@@ -1,7 +1,7 @@
 ---
 namespace: istio-operator
 resources:
-- crds/istio-crd.yaml
+- crds/istio_v1alpha1_istiooperator_cr.yaml
 - namespace.yaml
 - clusterrole.yaml
 - clusterrole_binding.yaml
