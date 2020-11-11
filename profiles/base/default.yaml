@@ -1,0 +1,14 @@
+apiVersion: install.istio.io/v1alpha1
+kind: IstioOperator
+metadata:
+  namespace: istio-system
+  name: example-istiocontrolplane
+spec:
+  profile: demo
+  addonComponents:
+    prometheus:
+      enabled: true
+    kiali:
+      enabled: true
+    tracing:
+      enabled: true
